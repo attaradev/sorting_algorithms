@@ -6,7 +6,8 @@
  *@list: node list
  *Return: void
 */
-void swap_nodes(listint_t **list, listint_t *left, listint_t *right) {
+void swap_nodes(listint_t **list, listint_t *left, listint_t *right)
+{
 	if (left->prev)
 		left->prev->next = right;
 	if (right->next)
@@ -23,7 +24,8 @@ void swap_nodes(listint_t **list, listint_t *left, listint_t *right) {
  *working on doubly linked lists
  *@list: list
 */
-void cocktail_sort_list(listint_t **list) {
+void cocktail_sort_list(listint_t **list)
+{
 	int swapped;
 
 	listint_t *start = NULL;
