@@ -19,9 +19,10 @@ void swap_nodes(listint_t **list, listint_t *left, listint_t *right) {
     if (*list == left)
         *list = right;
 }
+
 /**
  *cocktail_sort_list - this is a cocktail-sort implementation
- *working on doubly-linked lists
+ *working on doubly linked lists
  *@list: list
  */
 void cocktail_sort_list(listint_t **list) {
